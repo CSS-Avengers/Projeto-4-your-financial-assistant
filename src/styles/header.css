@@ -1,0 +1,66 @@
+@import url(./global.css);
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 29px;
+    padding-top: 29px;
+}
+header span{
+    font-family: var(--font-family-montserrat);
+    color: var(--color-white-2);
+    font-size: var(--font-size-h3);
+}
+
+.header-title{
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+
+.header-nav ul{
+    display: flex;    
+    gap: 21px;
+
+}
+
+.header-nav ul li{
+    list-style: none;
+}
+
+.header-nav ul li a{
+    list-style: none;
+   color: var(--color-white-2);
+   text-decoration: none;
+   font-family: var(--font-family-montserrat);
+}
+
+.header-button{
+    display: flex;
+    gap: 45px;
+}
+
+.button-one{
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-paragraph);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-white-2);
+}
+
+.arrow-button{
+    display: flex;
+    gap: 15px;
+}
+
+.button-two{
+       color: var(--color-white-2);
+       font-family: var(--font-family-montserrat);
+       font-size: var(--font-size-h6);
+       text-decoration: none;
+       font-weight: bold;
+}
+
