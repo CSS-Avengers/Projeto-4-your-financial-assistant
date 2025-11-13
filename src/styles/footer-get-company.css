@@ -1,0 +1,70 @@
+@import url(./global.css);
+
+footer{
+    display: flex;
+    gap: 93px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    gap: 30px;
+    background-color: var(--color-white);
+    padding: 0px 195px;
+    padding-top: 80px;
+}
+
+.footer-container-item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 241px;
+}
+
+
+.footer-container-item div{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer-container h2{
+    
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+    width: 177px;
+    color: var(--subtitle-color-blue-primary);
+}
+
+.footer-container p{
+    width: 213px;
+    font-size: var(--font-size-paragraph);
+    font-family: var(--font-family-montserrat);
+    color: var(--subtitle-color-gray-2)
+}
+
+.footer-mini-container{
+    padding: 25px 536px;
+    background-color: var(--color-white-2);
+}
+
+.footer-mini-container p{
+    display: flex;
+    width: 368px;
+    font-size: var(--font-size-h6);
+    color: var(--subtitle-color-gray-2); 
+    font-family: var(--font-family-montserrat);
+}
+
+.footer-container-item-paragraph{
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+}
+
+.footer-container-item-company-info{
+    width: 177px;
+}
