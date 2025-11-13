@@ -1,0 +1,50 @@
+@import url(./global.css);
+
+main{
+    display: flex;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+div h1{
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-h1);
+    width: 509px;
+    color: var(--color-white);
+}
+
+div p{
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-h4);
+    color: var(--color-white);
+    width: 376px;
+}
+
+.button-link-one{
+    color: var(--color-white);
+    font-size: var(--font-size-h6);
+    text-decoration: none;
+    padding: 15px 36px;
+    background-color: var(--primary-color);
+    border-radius: 37px;
+    font-family: var(--font-family-montserrat);
+    font-weight: bold;
+}
+
+.button-link-two{
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    font-family: var(--font-family-montserrat);
+    padding: 15px 36px;
+    border-radius: 37px;
+    font-weight: bold;
+    text-decoration: none;
+}
