@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* Cores */
+
+    --primary-color: #23a6f0; 
+    --secondary-color-green: #40bb15; 
+    --secondary-color-green-2: #2dc071; 
+    --secondary-color-gray: #3c403d; 
+    --secondary-color-gray2: #bdbdbd; 
+    --background-gradient-color-1: linear; 
+    --subtitle-color-blue-primary: #252b42;
+    --subtitle-color-blue-secondary: #2a7cc7;
+    --subtitle-color-blue-terciary: #8ec2f2;
+    --subtitle-color-gray-2: #737373;
+    --color-white: #fff;
+    --color-white-2: #fafafa;
+    --color-orange: #e77c40;
+    --color-red: #e74040;
+    --light-gray: #ececec;
+
+    /* Font size */
+
+    --font-size-h1: 58px;
+    --font-size-h2: 40px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-h5: 16px;
+    --font-size-h6: 14px;
+
+    --font-size-mobile: 30px;
+    --font-size-paragraph: 14px;
+    --font-size-list: 20px;
+    --font-size-link: 14px;
+
+
+    /* estilo da fonte */
+
+    --font-family-montserrat: "Montserrat", sans-serif;
+    
+}

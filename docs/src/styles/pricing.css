@@ -1,0 +1,131 @@
+@import url(./global.css);
+
+.section-pricing{
+    display: flex;
+    background-color: var(--color-white-2);
+    flex-direction: column;
+    align-items: center;
+    padding: 112px;
+    
+}
+
+.div-pricing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 80px;
+}
+ .div-pricing h2{
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-montserrat);
+    color: var(--subtitle-color-blue-primary);
+ }
+
+ .div-pricing p{
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-paragraph);
+    width: 470px;
+    color: var(--subtitle-color-gray-2);
+    font-weight: medium;
+ }
+
+ .div-pricing2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding:  70px 20px 70px 20px;
+ }
+ .div-pricing3{
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    gap: 35px;
+    text-align: center;
+ }
+ .div-pricing3 h3{
+    color: var(--subtitle-color-blue-primary);
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-montserrat);
+ }
+
+ .div-pricing3 p{
+    color: var(--subtitle-color-gray-2);
+    font-size: var(--font-size-h5);
+    font-family: var(--font-family-montserrat);
+    width: 279px;
+    font-weight: bold;
+ }
+ .div-pricing4{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   gap: 4.5px;
+ }
+
+ .div-pricing4 h4{
+   color: var(--primary-color);
+   font-family: var(--font-family-montserrat);
+   font-size: var(--font-size-h2);
+ }
+
+ .div-pricing5{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 5px;
+ }
+
+ .div-pricing5 h5{
+   font-size: var(--font-size-h5);
+   font-family: var(--font-family-montserrat);
+   color: var(--primary-color);
+ }
+ .div-pricing5 h6{
+   color: var(--primary-color);
+   font-family: var(--font-family-montserrat);
+   font-size: var(--font-size-h6);
+ }
+
+ .div-images1{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   padding: 35px;
+ }
+
+ .div-images2{
+   font-family: var(--font-family-montserrat);
+   font-size: var(--font-size-h6);
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: bold;
+   width: 250px;
+ }
+
+ .button-for-free{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+ .button-for-free span{
+   display: flex;
+   justify-content: center;
+   border: 1px solid var(--primary-color);
+   border-radius: 5px;
+   background-color: var(--primary-color);
+   color: var(--color-white-2);
+   padding:  15px 40px;
+   font-family: var(--font-family-montserrat);
+   font-size: var(--font-size-h5);
+   font-weight: bold;
+   width: 279px;
+ }
+ .cards-free{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ }
