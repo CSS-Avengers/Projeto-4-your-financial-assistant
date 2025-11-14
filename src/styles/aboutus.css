@@ -1,0 +1,89 @@
+@import url(./global.css);
+
+.section-aboutus{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+
+}
+
+.div-aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.div-aboutus h2{
+    color: #252B42;
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-montserrat);
+    font-weight: 700;
+}
+
+.div-aboutus p{
+    color: #737373;
+    width: 470px;
+    font-size: var(--font-size-paragraph);
+    font-family: var(--font-family-montserrat);
+    text-align: center;
+}
+
+.container-aboutus{
+    display: flex;
+    gap: 123px;
+    justify-content: flex-start;
+}
+
+.principal-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.principal-paragraph h3{
+    font-size: var(--font-size-h3);
+    font-family: var(--font-family-montserrat);
+    font-weight: 700;
+
+
+}
+
+.principal-paragraph p{
+    color: #737373;
+    font-size: var(--font-size-paragraph);
+    font-family: var(--font-family-montserrat);
+    width: 330px;
+    
+}
+
+.aboutus-itens{
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.aboutus-itens h5{
+    font-size: var(--font-size-h5);
+    font-family: var(--font-family-montserrat);
+    color: #252B42;
+    font-weight: 700;
+}
+
+.aboutus-itens h6{
+    font-size: var(--font-size-h6);
+    font-family: var(--font-family-montserrat);
+    color: #737373;
+}
+
+.principal-paragraph1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
