@@ -1,0 +1,24 @@
+@import url("./global.css");
+
+.section-mapa {
+    display: flex;
+    justify-content: center;
+    padding: 160px 0;
+    gap: 50px;
+    background-color: var(--color-white-2);
+
+}
+
+.conteiner-mapa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 609px;
+    padding: 160px 0;
+    
+}
+
+.conteiner-mapa iframe{
+    width: 100%;
+    height: 500px;
+}
